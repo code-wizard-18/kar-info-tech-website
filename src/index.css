@@ -1,0 +1,25 @@
+/* Add any global styles here */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+ }
+ h1, h2, h3, h4, h5, h6 {
+  color: #ff7f00;
+ }
+ a {
+  color: #ff7f00;
+  text-decoration: none;
+ }
+ button {
+  cursor: pointer;
+ }
+ ul {
+  list-style: none;
+  padding: 0;
+ }
+ img {
+  max-width: 100%;
+  height: auto;
+ }

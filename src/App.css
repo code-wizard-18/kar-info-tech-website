@@ -1,0 +1,9 @@
+.App{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+header,section,footer{
+  margin: 20px auto;
+  max-width: 1200px;
+}

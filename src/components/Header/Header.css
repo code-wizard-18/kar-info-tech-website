@@ -1,0 +1,49 @@
+#navbarSupportedContent {
+    margin-left: 15%;
+    margin-top : 2%;
+}
+
+.nav-bar-home-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.nav-bar-home-container {
+    padding: 0 5%;
+    background-color: black !important;
+}
+
+.nav-item {
+    color: #ED5F22 !important;
+    font-family: "Roboto Mono", monospace;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+.nav-item.active {
+    color: #ffffff !important;
+}
+
+.nav-item.active:hover {
+    color: #ED5F22 !important;
+}
+
+.contact-us-button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 24px;
+}
+
+.contact-us-button:hover {
+    background-color: #ED5F22;
+    color: #fff;
+}
+
