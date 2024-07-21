@@ -18,12 +18,14 @@
     margin: 20px;
 }
 
+
+
 .contact-us-map-container {
     background: url("../../../public/images/maps.svg");
     background-repeat: no-repeat;
 }
 
-.input-container input,
+.input-container input, .input-container select ,
 .input-container textarea {
     background: #464646;
     border: 0;
@@ -36,6 +38,8 @@
 .input-container input {
     height: 50px;
 }
+
+
 
 .input-container textarea {
     height: 160px;
