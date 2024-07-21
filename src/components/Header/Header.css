@@ -47,3 +47,11 @@
     color: #fff;
 }
 
+.nav-bar-home-elements .contact-us-button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 24px;
+}

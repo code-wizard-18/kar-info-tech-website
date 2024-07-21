@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light nav-bar-home-container">
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="#">
         <img src='/images/logo.svg' width={25} height={25} alt="Logo" />
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,10 @@ const Header = () => {
           <Link to='/aboutus' onClick={() => navbarClick('item4')}>
             <li className={`nav-item ${activeItem === 'item4' ? 'active' : ''}`} id='item4'>About Us</li>
           </Link>
-          <Link to='/careers' onClick={() => navbarClick('item5')}>
+          <Link to='/contactus' onClick={() => navbarClick('item5')}>
             <li className={`nav-item ${activeItem === 'item5' ? 'active' : ''}`} id='item5'>Careers</li>
           </Link>
-          <Link to='/getquote' onClick={() => navbarClick('item6')}>
+          <Link to='/contactus' onClick={() => navbarClick('item6')}>
             <li className={`nav-item ${activeItem === 'item6' ? 'active' : ''}`} id='item6'>
               <div className='contact-us-button'>
                 <p className='contact-us-button-text'>Get Quote</p>

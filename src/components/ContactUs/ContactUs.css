@@ -18,6 +18,11 @@
     margin: 20px;
 }
 
+.contact-us-map-container {
+    background: url("../../../public/images/maps.svg");
+    background-repeat: no-repeat;
+}
+
 .input-container input,
 .input-container textarea {
     background: #464646;
@@ -79,13 +84,7 @@
     color: #fff;
 }
 
-.contact-us-map-container img {
-    height: 56%;
-}
 
-.contact-us-form-container {
-    height: 56%;
-}
 
 /* Responsive styles */
 
